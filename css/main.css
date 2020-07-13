@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 96%;
+    background-image: linear-gradient(to left, #051a91, #021780, #00136f, #00105e, #000c4e);
+    padding: 2%;
+    display: flex;
+}
+
+header p {
+    margin-right: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul {
+    position: absolute;
+    padding: 0.6% 2%;
+    color: white;
+    margin: auto;
+    margin-left: 120px;
+    display: block;
+    cursor: pointer;
+}
+
+header ul:hover > li {
+    display: block;
+}
+
+header ul li {
+    position: relative;
+    bottom: -30px;
+    background: rgb(4, 1, 43);
+    width:100px;
+    padding: 15px 10px;
+    text-align: center;
+    display: none;
+    z-index: 200;
+}
+
+header ul li a {
+    color: white;
+}
+
+header ul li:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(4, 1, 43);
+}
+
+header ul li:hover a {
+    background: rgb(255, 255, 255);
+    color: rgb(4, 1, 43);
+}
+
+.inactive {
+    cursor: not-allowed;
+}
+
+.inactive:hover { 
+    color: rgba(4, 1, 43, 0.774);
+}
+
+section {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+section .img {
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+section .img img {
+    width: 100%;
+    height: 100%;
+}
+
+section .infos {
+    height: 150px;
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+section .infos h1 {
+    position: absolute;
+}
+
+section .infos .info {
+    width: 50%;
+    margin-top: 100px;
+}
+
+section .infos, section .infos .info input {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    
+
+    .inactive {
+        cursor: not-allowed;
+    }
+
+    .inactive:hover { 
+        color: rgba(4, 1, 43, 0.774);
+    }
+
+    section {
+        width: 96%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    section .img {
+        margin-top: 50px;
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    section .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    section .infos {
+        height: 100px;
+        width: 80%;
+        padding: 10%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    section .infos h1 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    section .infos p {
+        text-align: justify;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    section .infos, section .infos .info input {
+        font-size: 18px;
+    }
+
+}
