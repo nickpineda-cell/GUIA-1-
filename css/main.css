@@ -117,6 +117,88 @@ section .infos, section .infos .info input {
 }
 
 
+.elementos {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.elementos a {
+    color: rgb(17, 33, 124);
+    font-size: 20px;
+    padding: 4%;
+    border: 1px solid;
+    width: 20%;
+    margin-top: 50px;
+    text-align: center;
+    transition: 1s;
+}
+
+.elementos a:hover {
+    background: blue;
+    color: white;
+}
+
+.container h2 {
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    color: rgb(13, 13, 161);
+}
+
+.container h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.container p {
+    color: rgb(48, 48, 48);
+    text-align: justify;
+}
+
+.container { 
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.regresar {
+    position: fixed;
+    left: 0;
+    background: blue;
+    color: white;
+    padding: 1%;
+}
+
+span {
+    margin-top: 50px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#boton {
+    border: 1px solid orange;
+    color: orangered;
+    padding: 1%;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#texto {
+    position: relative;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: blue;
+}
+
 @media screen and (max-width: 800px) {
     
     
