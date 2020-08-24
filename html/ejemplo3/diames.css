@@ -1,0 +1,30 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.back-button {
+    background-color: rgb(125, 160, 205); /* #0960C9 */
+    display: block;
+    font-size: 1.2em;
+    font-weight: Bold;
+    height: 50px;
+    margin: 32px auto;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 24%;
+    color: #fff;
+    }
+
+    .back-button:hover {
+    background-color: rgba(130, 163, 225, 0.75);
+    text-decoration: none;
+    }
+
+
+    
+h3{
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+    text-align: center;
+}
