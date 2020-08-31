@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../../css/main.css">
+</head>
+<body>
+    <div class="container">
+        <a class="regresar" href="./../menu.html">Regresar</a>
+        <h2>Tipos de datos undefined y null</h2>
+    <p>Cuando trabajamos con datos en Javascript nos encontramos con algunos casos algo complicados de gestionar entre los que están undefined, null y NaN. Con estos
+         datos debemos tener en cuenta su especial comportamiento y naturaleza. Vamos a dar un repaso a estos tipos de datos con la 
+         excusa del desarrollo de una función universal de comparación de cualquier tipo de datos en Javascript que venimos
+          desarrollando en esta serie de artículos.
+
+          <br>
+          <br>
+          <br><br>
+        <span>undefined</span>
+        <br><br>
+        Cuando una variable ha quedado sin definir tiene un valor especial denominado undefined,
+         que se podría traducir como «sin definir«. Este valor puede resultar un poco desconcertante,
+          ya que además de un tipo de datos, existe una variable con ese nombre y también es un valor como tal.</p>
+
+          <br><br>
+          <img src="./../../img/js3.jpg" alt="">
+        <p>
+            <br><br><br>
+           <span>null</span>
+           <br><br>
+El caso del valor nulo es también bastante singular. En este caso null es un literal definido en la 
+especificación del lenguaje, no una variable global como en el caso undefined, por lo tanto, es una palabra reservada y no podremos utilizarla como nombre de variable.
+
+Podemos directamente utilizar el literal null para comprobar este valor es el que contiene una determinada 
+variable o es el retorno de una función.
+        </p>
+        <br><br>
+            <img src="./../../img/js4.jpg" alt="">
+<br><br>
+            <p>A diferencia de undefined, null no dispone de un tipo específico y en el caso de preguntar con typeof sobre un elemento con valor null nos dirá que es un objeto, lo cual puede desconcertarnos, ya que en la práctica no podemos tratarlo como al resto de objetos.</p>
+
+    </div>
+    <script src="./scripts.js"></script>    
+</body>
+</html>

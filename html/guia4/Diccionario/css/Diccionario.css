@@ -1,0 +1,55 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box-wrap {
+    padding: 3%;
+    background: white;
+}
+
+legend {
+    background: rgb(0, 162, 255);
+    color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+fieldset {
+    font-size: 20px;
+    border: 2px solid rgb(0, 162, 255);
+}
+
+textarea {
+    border: 2px solid rgb(0, 162, 255);
+    height: 100%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+label {
+    position: absolute;
+}
+
+select {
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 200px;
+    font-size: 17px;
+}
+
+input {
+    padding: 1%;
+    font-size: 20px;
+    width: 400px;
+}
+
+button {
+    background: rgb(0, 162, 255);
+    color: white;
+    padding: 1%;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}

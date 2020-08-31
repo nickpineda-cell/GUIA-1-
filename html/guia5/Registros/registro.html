@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="css/Registro.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="tabla">
+        <table id="detalles">
+            <tr>
+                <th>identificador</th>
+              <th>Nombres</th>
+              <th>Apellidos</th>
+              <th>Correo</th>
+              <th>Contraseña</th>
+              <th>Fecha de nacimiento</th>
+            </tr>
+            <tr id="campo_de_tabla">
+              
+            </tr>
+          </table>
+      </div>
+
+    <div class="form">
+        <form action="javascript:void(0)">
+          <label for="fname">Nombres</label>
+          <input type="text" id="nombres" name="firstname" placeholder="Nombres..">
+      
+          <label for="lname">Primer Apellido</label>
+          <input type="text" id="apellidos"  placeholder="Apellidos..">
+
+          <label for="lname">Segundo Apellido</label>
+          <input type="text" id="apellidos2"  placeholder="Apellidos..">
+
+          <label for="lname">Correo electronico</label>
+          <input type="email" id="correo_electronico" name="lastname" placeholder="Correo electronico..">
+      
+          <label for="fname">Contraseña</label>
+          <input type="password" id="contra" name="firstname" placeholder="Contraseña..">
+      
+          <label for="fname">Repetir Contraseña</label>
+          <input type="password" id="contra2" name="firstname" placeholder="Repetir Contraseña..">
+      
+          <label for="lname">Fecha de nacimiento</label>
+          <input type="date" id="fecha" name="lastname" placeholder="Fecha de nacimiento..">
+        
+          <input id="btnRegistro" type="submit" value="Submit">
+        </form>
+      </div>
+
+      
+
+<script type="text/javascript" src="js/registro.js"></script>
+</body>
+</html>

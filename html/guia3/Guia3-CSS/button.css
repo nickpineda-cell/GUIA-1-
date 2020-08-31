@@ -1,0 +1,29 @@
+#botonTirar {
+background-color:#3bb3e0;
+font-family: 'Open Sans', sans-serif; fontsize:13px;
+font-weight:Bold; textdecoration:none; color:#fff;
+position:relative;
+padding:10px 20px; paddingright:50px; margin-bottom:
+30px;
+background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229)
+100%);
+}
+.back-button {
+    background-color: rgba(205,125,125,1); /* #0960C9 */
+    color: #ccc;
+    display: block;
+    font-size: 1.2em;
+    font-weight: Bold;
+    height: 50px;
+    margin: 32px auto;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 24%;
+    }
+    .back-button:hover {
+    background-color: rgba(225,135,130,0.75);
+    color: #fff;
+    text-decoration: none;
+    }
